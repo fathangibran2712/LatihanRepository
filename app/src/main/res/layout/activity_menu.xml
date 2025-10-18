@@ -11,6 +11,7 @@
       android:orientation="vertical"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
+      android:layout_marginTop="50dp"
       tools:ignore="MissingConstraints">
 
     <ImageView
@@ -70,6 +71,73 @@
         android:gravity="center"
         android:text="Semester"
         android:layout_marginStart="20dp"
+        android:textSize="18dp" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_marginTop="50dp"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/iconOrtu"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="240dp"
+        android:src="@drawable/ortu" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ortu"
+        android:layout_marginStart="240dp"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/iconKelas"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="240dp"
+        android:src="@drawable/kelas" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kelas"
+        android:layout_marginStart="240dp"
+        android:textSize="18dp" />
+    <ImageView
+        android:id="@+id/iconTahunAjaran"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="240dp"
+        android:src="@drawable/tahun" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tahun Ajaran"
+        android:layout_marginStart="240dp"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/iconSetting"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="240dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Setting"
+        android:layout_marginStart="240dp"
         android:textSize="18dp" />
   </LinearLayout>
 
