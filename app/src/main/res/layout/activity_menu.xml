@@ -1,34 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-  <androidx.constraintlayout.widget.ConstraintLayout
+  <LinearLayout
+      android:orientation="vertical"
       android:layout_width="match_parent"
-      android:layout_height="200dp">
+      android:layout_height="match_parent"
+      tools:ignore="MissingConstraints">
 
     <ImageView
         android:id="@+id/iconSantri"
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/santri" />
+
+    <TextView
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/santri"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="250dp" />
+        android:gravity="center"
+        android:text="Santri"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp" />
 
     <ImageView
-        android:id="@+id/iconOrtu"
-        android:layout_width="match_parent"
+        android:id="@+id/iconGuru"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/guru" />
+
+    <TextView
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/ortu"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="250dp"/>
-  </androidx.constraintlayout.widget.ConstraintLayout>
+        android:gravity="center"
+        android:text="Guru"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp" />
+    <ImageView
+        android:id="@+id/iconPelajaran"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/pelajaran" />
 
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pelajaran"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp" />
 
+    <ImageView
+        android:id="@+id/iconSemester"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/semester" />
 
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Semester"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp" />
   </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
